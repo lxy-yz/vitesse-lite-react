@@ -8,7 +8,7 @@
   <meta name="description" content="Opinionated Vite Starter Template">
 </head>
 <body class="font-sans dark:text-white dark:bg-hex-121212">
-  <div id="app"></div>
+  <div id="root"></div>
   <script>
     (function() {
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -17,6 +17,6 @@
         document.documentElement.classList.toggle('dark', true)
     })()
   </script>
-  <script type="module" src="/src/main.ts"></script>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>

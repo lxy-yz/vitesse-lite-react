@@ -2,9 +2,8 @@
 
 import path from 'path'
 import { defineConfig } from 'vite'
-import Vue from '@vitejs/plugin-vue'
+import react from '@vitejs/plugin-react'
 import Pages from 'vite-plugin-pages'
-import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
 
@@ -15,9 +14,7 @@ export default defineConfig({
     },
   },
   plugins: [
-    Vue({
-      reactivityTransform: true,
-    }),
+    react(),
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
@@ -25,16 +22,9 @@ export default defineConfig({
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       imports: [
-        'vue',
-        'vue/macros',
-        'vue-router',
-        '@vueuse/core',
+        'react',
+        { 'react-use': ['useCounter'] },
       ],
-      dts: true,
-    }),
-
-    // https://github.com/antfu/vite-plugin-components
-    Components({
       dts: true,
     }),
 

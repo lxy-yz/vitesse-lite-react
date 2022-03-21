@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "module": "ESNext",
     "target": "es2016",
