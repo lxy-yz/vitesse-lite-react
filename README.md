@@ -3,7 +3,7 @@
 </p>
 
 <h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
+<a href="https://vitesse-lite-react.netlify.app/">Live Demo</a>
 </h6>
 
 <h5 align='center'>
@@ -60,8 +60,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 ### Plugins
 
-- [React Router v6](https://reactrouterdotcom.fly.dev/docs/en/v6)
-  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
+- [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use react/react-router-dom API and others without importing
 - [usehooks-ts](https://usehooks-ts.com/) - collection of useful React hooks
 
