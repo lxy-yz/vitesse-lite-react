@@ -7,7 +7,7 @@
 </h6>
 
 <h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
+<b>React version of <a href="https://github.com/antfu/vitesse-lite">Vitesse Lite</a></b>
 </h5>
 
 <br>
@@ -19,17 +19,13 @@
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- ⚡️ [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
-
-- 📦 [Components auto importing](./src/components)
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
 - 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
 
@@ -64,11 +60,10 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 ### Plugins
 
-- [Vue Router](https://github.com/vuejs/vue-router)
+- [React Router v6](https://reactrouterdotcom.fly.dev/docs/en/v6)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
-- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
-- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use react/react-router-dom API and others without importing
+- [usehooks-ts](https://usehooks-ts.com/) - collection of useful React hooks
 
 ## Try it now!
 
@@ -81,7 +76,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-lite my-vitesse-app
-cd my-vitesse-app
+npx degit lxy-yz/vitesse-lite-react my-react-app
+cd my-react-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
