@@ -14,6 +14,10 @@ export default defineConfig({
     },
   },
   plugins: [
+    // https://github.com/antfu/unocss
+    // see unocss.config.ts for config
+    Unocss(),
+
     react(),
 
     // https://github.com/hannoeru/vite-plugin-pages
@@ -23,14 +27,11 @@ export default defineConfig({
     AutoImport({
       imports: [
         'react',
-        { 'react-use': ['useCounter'] },
+        'react-router-dom',
+        { 'usehooks-ts': ['useCounter', 'useDarkMode'] },
       ],
       dts: true,
     }),
-
-    // https://github.com/antfu/unocss
-    // see unocss.config.ts for config
-    Unocss(),
   ],
 
   // https://github.com/vitest-dev/vitest

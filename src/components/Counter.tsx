@@ -1,13 +1,13 @@
 export default function Counter() {
-  const [value, { inc, dec }] = useCounter(0)
+  const { count, increment, decrement } = useCounter(0)
 
   return (
     <div>
-      {value}
-      <button className="inc" onClick={() => inc()}>
+      {count}
+      <button className="inc" onClick={() => increment()}>
       +
       </button>
-      <button className="dec" onClick={() => dec()}>
+      <button className="dec" onClick={() => decrement()}>
       -
       </button>
     </div>
