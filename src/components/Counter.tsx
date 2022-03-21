@@ -1,5 +1,5 @@
-export default function Counter() {
-  const { count, increment, decrement } = useCounter(0)
+export default function Counter({ initial }: { initial: number }) {
+  const { count, increment, decrement } = useCounter(initial ?? 0)
 
   return (
     <div>
