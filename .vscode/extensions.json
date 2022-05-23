@@ -3,7 +3,6 @@
     "antfu.vite",
     "antfu.iconify",
     "antfu.unocss",
-    "Vue.volar",
     "dbaeumer.vscode-eslint"
   ]
 }
