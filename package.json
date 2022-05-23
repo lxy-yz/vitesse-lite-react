@@ -24,7 +24,6 @@
     "@types/react-dom": "^18.0.4",
     "@unocss/reset": "^0.34.0",
     "@vitejs/plugin-react": "^1.3.2",
-    "@vue/test-utils": "^2.0.0",
     "eslint": "^8.16.0",
     "jsdom": "^19.0.0",
     "typescript": "^4.6.4",
